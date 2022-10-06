@@ -516,6 +516,15 @@ packages:
       mime-types: 2.1.35
     dev: false
 
+  /fs-extra/10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.10
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: false
+
   /fsevents/2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -525,6 +534,10 @@ packages:
 
   /function-bind/1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
+    dev: false
+
+  /graceful-fs/4.2.10:
+    resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: false
 
   /has-flag/3.0.0:
@@ -561,6 +574,14 @@ packages:
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /jsonfile/6.1.0:
+    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
+    dependencies:
+      universalify: 2.0.0
+    optionalDependencies:
+      graceful-fs: 4.2.10
     dev: false
 
   /magic-string/0.25.9:
@@ -727,6 +748,11 @@ packages:
     hasBin: true
     dev: false
 
+  /universalify/2.0.0:
+    resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
+    engines: {node: '>= 10.0.0'}
+    dev: false
+
   /vite/3.1.4:
     resolution: {integrity: sha512-JoQI08aBjY9lycL7jcEq4p9o1xUjq5aRvdH4KWaXtkSx7e7RpAh9D3IjzDWRD4Fg44LS3oDAIOG/Kq1L+82psA==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -765,12 +791,13 @@ packages:
     dev: false
 
   file:projects/use-http.tgz:
-    resolution: {integrity: sha512-NCT+wtgFJwujJteXY2mFsaeETDOVyEtAkbfqqWPe2xxrQJbFZt49RY3MQ9wthb3qfWQmwDkv2mvGNNklrF3A6A==, tarball: file:projects/use-http.tgz}
+    resolution: {integrity: sha512-MXrAQIjq3sMG5XSoTIuL3V4snz3BMMb1bJ9I2hqv0E2VR39YPX/QvDoLMjH7eFBnm2cJYnfMMFSeec6sei+uRA==, tarball: file:projects/use-http.tgz}
     name: '@rush-temp/use-http'
     version: 0.0.0
     dependencies:
       '@rollup/plugin-typescript': 8.5.0_380b1b2cc54b2b267f5ddaf612a7276c
       axios: 0.27.2
+      fs-extra: 10.1.0
       rollup: 2.79.1
       rollup-plugin-terser: 7.0.2_rollup@2.79.1
       tslib: 2.4.0
