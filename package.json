@@ -1,0 +1,12 @@
+{
+  "name": "utils-hooks",
+  "description": "前端公用方法和vue hooks",
+  "scripts": {
+    "build": "rollup -c",
+    "deploy": "npm run build && npm publish",
+    "watch": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^2.79.1"
+  }
+}
