@@ -1,5 +1,5 @@
 {
-  "name": "@lucas/use-http",
+  "name": "@zq010/use-http",
   "version": "0.0.1",
   "description": "http请求底层封装",
   "author": "zq010",
