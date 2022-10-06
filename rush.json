@@ -326,7 +326,9 @@
   "projects": [
     {
       "packageName": "@lucas/use-http",
-      "projectFolder": "hooks/useHttp"
+      "projectFolder": "hooks/useHttp",
+      "skipRushCheck": false,
+      "shouldPublish": true
     }
     // {
     //   /**
