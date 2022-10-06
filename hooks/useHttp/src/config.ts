@@ -45,7 +45,7 @@ function getHttpErrorMessage(error: AxiosError) {
         message = "服务未实现";
         break;
       case 502:
-        message = "网关错误了";
+        message = "网关错误";
         break;
       case 503:
         message = "服务不可用";
