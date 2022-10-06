@@ -30,7 +30,7 @@ function getHttpErrorMessage(error: AxiosError) {
         message = "您没有权限操作";
         break;
       case 404:
-        message = `请求地址出错`;
+        message = `请求地址出错了`;
         break; // 在正确域名下
       case 408:
         message = "请求超时";
