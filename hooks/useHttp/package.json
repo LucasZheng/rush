@@ -1,6 +1,6 @@
 {
   "name": "@zq010/use-http",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "http请求底层封装",
   "author": "zq010",
   "license": "MIT",

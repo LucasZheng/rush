@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@zq010/use-http",
+      "comment": "republish",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@zq010/use-http"
+}
